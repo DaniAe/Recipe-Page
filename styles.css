@@ -29,7 +29,7 @@ main {
 
 h1 {
   padding: 1.5rem 0 1rem 0;
-  font-size: 2.48em;
+  font-size: 2.45em;
   color: hsl(24, 5%, 18%);
 }
 
@@ -80,8 +80,8 @@ li {
 }
 
 .ingredients li {
-  text-indent: -2.25em;
-  padding-left: 2em;
+  text-indent: -1.68rem;
+  padding-left: 22px;
   font-size: 0.75rem;
   margin: 0.75rem;
 }
