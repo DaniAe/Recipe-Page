@@ -80,7 +80,7 @@ li {
 }
 
 .ingredients li {
-  text-indent: -27px;
+  text-indent: -2.25em;
   padding-left: 2em;
   font-size: 0.75rem;
   margin: 0.75rem;
