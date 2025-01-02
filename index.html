@@ -4,74 +4,104 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Young+Serif&display=swap" rel="stylesheet">
+
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+
+  <link rel="stylesheet" href="styles.css">
   
   <title>Frontend Mentor | Recipe page</title>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
 </head>
 <body>
+  <main>
+    <img id="picture" src="assets/images/image-omelette.jpeg" alt="omelette image">
 
-  Simple Omelette Recipe
+    <h1 class="serif-font">Simple Omelette Recipe</h1>
 
-  An easy and quick dish, perfect for any meal. This classic omelette combines beaten eggs cooked 
-  to perfection, optionally filled with your choice of cheese, vegetables, or meats.
+    <p class="outfit-font description">An easy and quick dish, perfect for any meal. This classic omelette combines beaten eggs cooked 
+    to perfection, optionally filled with your choice of cheese, vegetables, or meats.</p>
 
-  Preparation time
+    <section class="prep-time">
+      <h3 class="outfit-font bold" id="prep-heading">Preparation time</h3>
 
-  Total: Approximately 10 minutes
-  Preparation: 5 minutes
-  Cooking: 5 minutes
+      <ul class="outfit-font">
+        <li><span><strong>Total</strong>: Approximately 10 minutes</span></li>
+        <li><span><strong>Preparation</strong>: 5 minutes</span></li>
+        <li><span><strong>Cooking</strong>: 5 minutes</span></li>
+      </ul>
+    </section>
 
-  Ingredients
+    <section class="ingredients">
+      <h2 class="serif-font" id="ingredients-heading">Ingredients</h2>
 
-  2-3 large eggs
-  Salt, to taste
-  Pepper, to taste
-  1 tablespoon of butter or oil
-  Optional fillings: cheese, diced vegetables, cooked meats, herbs
+      <ul class="outfit-font">
+        <li><span>2-3 large eggs</span></li>
+        <li><span>Salt, to taste</span></li>
+        <li><span>Pepper, to taste</span></li>
+        <li><span>1 tablespoon of butter or oil</span></li>
+        <li><span>Optional fillings: cheese, diced vegetables, cooked meats, herbs</span></li>
+      </ul>
+    </section>
 
-  Instructions
+    <section class="instructions">
+      <h2 class="serif-font" id="instructions-heading">Instructions</h2>
 
-  Beat the eggs: In a bowl, beat the eggs with a pinch of salt and pepper until they are well mixed. 
-  You can add a tablespoon of water or milk for a fluffier texture.
+      <ol class="outfit-font">
+        <li><span><strong>Beat the eggs</strong>: In a bowl, beat the eggs with a pinch of salt and pepper until they are well mixed. 
+        You can add a tablespoon of water or milk for a fluffier texture.</span></li>
 
-  Heat the pan: Place a non-stick frying pan over medium heat and add butter or oil.
+        <li><span><strong>Heat the pan</strong>: Place a non-stick frying pan over medium heat and add butter or oil.</span></li>
 
-  Cook the omelette: Once the butter is melted and bubbling, pour in the eggs. Tilt the pan to ensure 
-  the eggs evenly coat the surface.
+        <li><span><strong>Cook the omelette</strong>: Once the butter is melted and bubbling, pour in the eggs. Tilt the pan to ensure 
+        the eggs evenly coat the surface.</span></li>
 
-  Add fillings (optional): When the eggs begin to set at the edges but are still slightly runny in the 
-  middle, sprinkle your chosen fillings over one half of the omelette.
+        <li><span><strong>Add fillings (optional)</strong>: When the eggs begin to set at the edges but are still slightly runny in the 
+        middle, sprinkle your chosen fillings over one half of the omelette.</span></li>
 
-  Fold and serve: As the omelette continues to cook, carefully lift one edge and fold it over the 
-  fillings. Let it cook for another minute, then slide it onto a plate.
+        <li><span><strong>Fold and serve</strong>: As the omelette continues to cook, carefully lift one edge and fold it over the 
+        fillings. Let it cook for another minute, then slide it onto a plate.</span></li>
 
-  Enjoy: Serve hot, with additional salt and pepper if needed.
+        <li><span><strong>Enjoy</strong>: Serve hot, with additional salt and pepper if needed.</span></li>
+      </ol>
+    </section>
 
-  Nutrition
+    <section class="nutrition">
+      <h2 class="serif-font" id="nutrition-heading">Nutrition</h2>
 
-  The table below shows nutritional values per serving without the additional fillings.
+      <p class="outfit-font description">The table below shows nutritional values per serving without the additional fillings.</p>
 
-  Calories
-  277kcal
+      <table>
+        <!-- <aria-labelled>Nutrition</aria-labelled> -->
 
-  Carbs
-  0g
+        <tbody>
+          <tr>
+            <th><span class="outfit-font">Calories</span></th>
+            <td><strong class="outfit-font bold">277kcal</strong></td>
+          </tr>
+          <tr>
+            <th><span class="outfit-font">Carbs</span></th>
+            <td><strong class="outfit-font bold">0g</strong></td>
+          </tr>
+          <tr>
+            <th><span class="outfit-font">Protein</span></th>
+            <td><strong class="outfit-font bold">20g</strong></td>
+          </tr>
+          <tr>
+            <th><span class="outfit-font">Fat</span></th>
+            <td><strong class="outfit-font bold">22g</strong></td>
+          </tr>
+        </tbody>
 
-  Protein
-  20g
+      </table>
+    </section>
 
-  Fat
-  22g
-  
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
+    <div class="attribution">
+      <span class="outfit-font">Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.</span>
+      <span class="outfit-font">Coded by <a href="https://www.frontendmentor.io/profile/DaniahAb" target="_blank">DaniAe</a>.</span>
+    </div>
+  </main>
 </body>
 </html>

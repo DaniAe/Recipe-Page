@@ -1,0 +1,163 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: hsl(30, 54%, 90%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+main {
+  background-color: white;
+  /* width: 1440px; */
+  max-width: 50vw;
+  padding: 35px;
+  border-radius: 20px;
+  min-height: 100vh;
+  margin: 5em 0;
+}
+
+#picture {
+  width: 100%;
+  border-radius: 15px;
+}
+
+h1 {
+  padding: 1.5rem 0 1rem 0;
+  font-size: 2.48em;
+  color: hsl(24, 5%, 18%);
+}
+
+.description {
+  color: hsl(30, 10%, 34%);
+  padding-bottom: 30px;
+}
+
+.prep-time {
+  background-color: hsl(330, 100%, 98%);
+  color: hsl(332, 51%, 32%);
+  padding: 20px;
+  border-radius: 8px;
+}
+
+#prep-heading {
+  margin-bottom: 1rem;
+}
+
+.prep-time li {
+  color: hsl(332, 51%, 32%);
+  margin-bottom: 1rem;
+}
+
+.prep-time li span {
+  color: hsl(30, 10%, 34%);
+}
+
+li {
+  list-style-position: inside;
+}
+
+.ingredients, .instructions {
+  color: hsl(14, 45%, 36%);
+  border-bottom: 1px solid lightgrey;
+  padding-bottom: 1.25em;
+}
+
+.ingredients li, .instructions li {
+  color: hsl(14, 45%, 36%);
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+.ingredients li span, .instructions li span {
+  color: hsl(30, 10%, 34%);
+  font-weight: 400;
+}
+
+.instructions li {
+  text-indent: -33px;
+  padding-left: 2.4em;
+  margin: 0.5rem;
+}
+
+.instructions li span {
+  margin-left: 15px;
+  line-height: 1.5;
+}
+
+.prep-time li, .ingredients li {
+  font-size: 0.75rem;
+  padding-left: 0.75em;
+}
+
+.prep-time li span, .ingredients li span {
+  font-size: 1rem;
+  margin-left: 10px;
+}
+
+#ingredients-heading, #instructions-heading, #nutrition-heading {
+  margin: 1.75rem 0 1.2rem 0;
+}
+
+#nutrition-heading {
+  color:hsl(14, 45%, 36%);
+}
+
+table {
+  width: 100%;
+}
+
+tr {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid lightgrey;
+  padding: 15px 0 15px 20px;
+  color: hsl(30, 10%, 34%);
+}
+
+td {
+  width: 50%;
+  color: hsl(14, 45%, 36%);
+  font-weight: 700;
+}
+
+tr:last-of-type {
+  border: 0;
+}
+
+tr:first-of-type {
+  padding-top: 0;
+  margin-top: -5px;
+}
+
+.outfit-font {
+  font-family: "Outfit", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.outfit-font.bold {
+  font-weight: 600;
+}
+
+.serif-font {
+  font-family: "Young Serif", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.attribution {
+  font-size: 11px; 
+  text-align: center;
+  transform: translateY(5em);
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
