@@ -14,8 +14,8 @@ body {
 
 main {
   background-color: white;
-  /* width: 1440px; */
-  max-width: 50vw;
+  width: 725px;
+  max-width: 90%;
   padding: 35px;
   border-radius: 20px;
   min-height: 100vh;
@@ -79,6 +79,13 @@ li {
   font-weight: 400;
 }
 
+.ingredients li {
+  text-indent: -27px;
+  padding-left: 2em;
+  font-size: 0.75rem;
+  margin: 0.75rem;
+}
+
 .instructions li {
   text-indent: -33px;
   padding-left: 2.4em;
@@ -90,7 +97,7 @@ li {
   line-height: 1.5;
 }
 
-.prep-time li, .ingredients li {
+.prep-time li{
   font-size: 0.75rem;
   padding-left: 0.75em;
 }
